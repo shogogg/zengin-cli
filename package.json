@@ -1,0 +1,32 @@
+{
+  "name": "zengin-cli",
+  "version": "1.0.0",
+  "description": "A simple command-line tool for parsing Zengin format file",
+  "author": "shogogg <shogo@studiofly.net>",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "zengin": "index.js"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint",
+    "watch": "tsc --watch"
+  },
+  "dependencies": {
+    "commander": "^8.2.0",
+    "csv-stringify": "^5.6.5",
+    "iconv": "^3.0.1",
+    "markdown-table": "^3.0.1",
+    "string-width": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/iconv": "^3.0.0",
+    "@types/node": "^16.11.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.1",
+    "typescript": "^4.4.4"
+  }
+}
